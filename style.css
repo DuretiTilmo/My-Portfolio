@@ -1,0 +1,146 @@
+
+/* Extra small devices (phones, 600px and down) */
+ @media screen and (max-width: 600px) {
+    * {
+      font-size: 16px;
+    }
+    .nav li {
+      font-size: 14px;
+    }
+    .contact input{
+      font-size: 14px;
+     }
+  }
+  
+   * {
+    /* background-color: rgb(243, 242, 241); */
+    background-color: rgb(4, 46, 46);
+    font-family: Cambria;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-size: 19px;
+    color: whitesmoke;
+    max-height: 100%;
+  } 
+
+ h1 {
+    margin: 80px;
+    padding: 18px;
+    background-color: white;
+    color:rgb(8, 65, 65);
+  }
+  
+  nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 20px;
+
+  }
+  nav ul li :hover,
+  nav ul li :focus {
+      box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+      transform: translateX(-0.25em);
+
+  }
+  nav li a {
+    color: rgb(5, 5, 53);
+    margin-bottom: 30px;
+    color: whitesmoke;
+
+  }
+
+  .profilePic {
+    border-radius: 50%;
+    width: 130px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  
+  .contact {
+    margin: 50px, 50px, 0, 50px;
+  }
+  
+  .contact input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    color: black;
+  }
+  
+  .contact textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    color: black;
+  
+  }
+  
+  h2 {
+   text-align: center;
+   background-color: rgb(85, 126, 126);
+}
+
+  .card-body .img-fluid {
+    opacity: 1;
+    display: block;
+    height: 250px;
+    width: 400px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    border-radius: 5%;
+    margin: 25px;
+    flex: 0 0 400px;
+  }
+  
+  .card-body .img_1 {
+    transition: 0.5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-left: 200px;
+  }
+  
+  .card-body:hover .img_1 {
+    opacity: 1;
+  }
+  .card-body:hover .img-fluid {
+    opacity: 0.3;
+  }
+  
+  .fa {
+    font-size: 40px;
+    float: right;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+
+  }
+
+  .contact-me ul li a {
+    color: whitesmoke;
+
+  } 
+  
+  .span {
+    font-size: 15px;
+    color: red;
+  }
+    
